@@ -8,13 +8,13 @@ body{
 }
 .firstCointainer{
     width: 300px;
-    height: 300px;
+    height: 240px;
     background-color: #B287A3;
     position: relative;
     display: flex;
     flex-direction: column;
-    left: 25%;
-    margin-top: 8%;
+    left: 35%;
+    margin-top: 2%;
     justify-content: center;
     border-radius: 12px;
 
@@ -49,8 +49,8 @@ body{
     position: relative;
     display: flex;
     flex-direction: column;
-    left: 53%;
-    margin-top: -22%;
+    left: 35%;
+    margin-top: 2%;
     justify-content: center;
     border-radius: 12px;
 
@@ -129,48 +129,3 @@ button:hover{
     transition: 0.5s;
     display: none;
 }
-@media (min-width: 320px) and (max-width: 480px){
-    .firstCointainer{
-        position: absolute;
-        top: -3%;
-        left: 5%;
-    }
-    .secContainer{
-        position: absolute;
-        top: 78%;
-        left: 5%;
-    }
-  }
-  @media (min-width: 481px) and (max-width: 768px){
-    .firstCointainer{
-        position: absolute;
-        top: -7%;
-        left: 5%;
-        height: 230px;
-    }
-    .secContainer{
-        position: absolute;
-        top: 78%;
-        left: 5%;
-       
-    }
-  }
-  @media (min-width: 769px)
-{
-    .firstCointainer{
-        position: absolute;
-        top: 8%;
-        left: 15%;
-        position: fixed;
-    }
-    .secContainer{
-        position: absolute;
-        top: 73%;
-        left: 50%;
-        position: fixed;
-       
-    }
-    
-    
-}
-  
