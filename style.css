@@ -1,12 +1,14 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     background-color: #BDCFB5;
 }
-.firstCointainer{
+
+.firstCointainer {
     width: 300px;
     height: 240px;
     background-color: #B287A3;
@@ -18,8 +20,8 @@ body{
     justify-content: center;
     border-radius: 12px;
 
-}
-.firstCointainer #inpuOne{
+} 
+.firstCointainer #inpuOne {
     width: 80%;
     padding: 15px;
     border-radius: 10px;
@@ -31,10 +33,11 @@ body{
     font-weight: bold;
     text-align: center;
 }
-.firstCointainer #Generate{
+
+.firstCointainer #Generate {
     width: 50%;
-    top:50%;
-    padding : 15px;
+    top: 50%;
+    padding: 15px;
     border: none;
     position: absolute;
     left: 26%;
@@ -42,7 +45,8 @@ body{
     font-size: larger;
     font-weight: bolder;
 }
-.secContainer{
+
+.secContainer {
     width: 300px;
     height: 300px;
     background-color: #B287A3;
@@ -55,7 +59,8 @@ body{
     border-radius: 12px;
 
 }
-.secContainer #inpuSec{
+
+.secContainer #inpuSec {
     width: 80%;
     padding: 15px;
     border-radius: 10px;
@@ -66,15 +71,17 @@ body{
     font-size: larger;
     font-weight: bold;
     text-align: center;
-    
+
 }
-.secContainer #bts{
+
+.secContainer #bts {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    
+
 }
-#bttns{
+
+#bttns {
     position: relative;
     width: 80px;
     height: 40px;
@@ -86,7 +93,8 @@ body{
     margin-top: 2px;
     transition: 0.5s;
 }
-#submit{
+
+#submit {
     position: absolute;
     padding: 10px;
     left: 10.5%;
@@ -95,14 +103,15 @@ body{
     border-radius: 8px;
     border: none;
     font-size: larger;
-    
+
 }
-button:hover{
+
+button:hover {
     transition: 0.5s;
     background-color: #C0F8D1;
 }
 
-.right{
+.right {
     position: relative;
     width: 30%;
     left: 35%;
@@ -112,7 +121,8 @@ button:hover{
     border-radius: 5px;
     display: none;
 }
-.wrong{
+
+.wrong {
     position: relative;
     width: 30%;
     left: 35%;
@@ -122,13 +132,52 @@ button:hover{
     border-radius: 5px;
     display: none;
 }
+
 @media screen and (max-width: 480px) {
 
- .firstCointainer{
-    left: 8%;
- }
- .secContainer{
-    left: 8%;
- }
+    .firstCointainer {
+        left: 8%;
+        margin-top: 110px;
+    }
+
+    .secContainer {
+        left: 8%;
+        margin-top: 30px;
+    }
+
+    .wrong {
+        margin-left: -40px;
+        width: 300px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .firstCointainer {
+
+        margin-top: 110px;
+    }
+
+    .secContainer {
+
+        margin-top: 30px;
+    }
+
+    .wrong {
+        width: 38%;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+
+    .wrong {
+        width: 300px;
+    }
+
+    .right {
+        width: 300px;
+    }
 
 }
